@@ -1,0 +1,53 @@
+.login,
+.register {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 100px;
+  color: #fff;
+  text-align: center;
+}
+.login h2,
+.register h2 {
+  margin-bottom: 50px;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.login .newUser,
+.register .newUser {
+  display: inline-block;
+  text-align: right;
+  margin-left: 12%;
+}
+.login .error,
+.register .error {
+  color: red;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.login label,
+.register label,
+.login input,
+.register input,
+.login input::-webkit-input-placeholder,
+.register input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+.login input,
+.register input {
+  border-bottom: 1px solid #aaa;
+  margin-top: 15px;
+}
+.home {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 200px;
+  color: #fff;
+  text-align: center;
+}
+.home h2 {
+  margin-bottom: 50px;
+}

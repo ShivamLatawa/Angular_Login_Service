@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Authentication App</title>
+    <link rel="stylesheet" href="assets/libs/angular/angular-material.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/shared.css">
+  </head>
+  <body ng-app="authApp">
+    <div class="container">
+      <ui-view></ui-view>
+    </div>
+      <!-- external libs -->
+      <script src="assets/libs/angular/angular.js"></script>
+      <script src="assets/libs/angular/angular-ui-router.js"></script>
+      <script src="assets/libs/angular/angular-material.min.js"></script>
+      <script src="assets/libs/angular/angular-animate.js"></script>
+      <script src="assets/libs/angular/angular-aria.js"></script>
+
+      <!-- app files -->
+      <script src="app.module.js"></script>
+      <script src="app.config.js"></script>
+      <script src="app.routes.js"></script>
+
+      <!-- controllers -->
+      <script src="modules/home/home.controller.js"></script>
+      <script src="modules/login/login.controller.js"></script>
+      <script src="modules/register/register.controller.js"></script>
+
+      <!-- services -->
+      <script src="shared/user.service.js"></script>
+      <script src="shared/storage.factory.js"></script>
+
+  </body>
+</html>

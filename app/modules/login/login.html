@@ -1,0 +1,27 @@
+<div class="login">
+  <h2 class="md-display-1">Login</h2>
+
+  <div class="newUser">
+    <span class="newUser__text">New Users Please Register Here</span>
+    <md-button class="md-raised newUser__button" ng-click="gotoRegistrationPage()">Register</md-button>
+  </div>
+
+  <form action="" method="post">
+    <div class="error" ng-show="error">Username or password is incorrect</div>
+    <div class="form-group">
+      <md-input-container>
+        <label for="">Username</label>
+        <input type="text" name="" id="" placeholder="Enter your username" ng-model="user.username">
+      </md-input-container>
+    </div>
+
+    <div class="form-group">
+      <md-input-container>
+        <label for="Password">Password</label>
+        <input type="password" name="" id="" placeholder="Enter your password" ng-model="user.password">
+      </md-input-container>
+    </div>
+
+    <md-button class="submitBtn md-raised" ng-click="submit(user)">LOG IN</md-button>
+  </form>
+</div>
